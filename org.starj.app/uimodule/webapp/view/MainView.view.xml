@@ -1,0 +1,12 @@
+<mvc:View controllerName="org.starj.app.controller.MainView"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns:lib="org.starj.lib"
+    xmlns:lib-m="org.starj.lib.m"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <lib:Example text="Sample" color="red"></lib:Example>
+            <lib-m:Text text="Custom extended sap.m.Text" color="red" fontWeight="bold"></lib-m:Text>
+        </content>
+    </Page>
+</mvc:View>
